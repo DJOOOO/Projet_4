@@ -1,0 +1,406 @@
+/****General****/
+* {
+    font-family: "Shrikhand", sans-serif;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  :root {
+    --main-color: #FFFFFF;
+    --main-bg-color: #f6f6f6f
+    --filter-bg-color: #353535;
+    ;
+  }
+  
+  .fa-solid {
+    color: var(--main-color);
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main-container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 50px;
+    box-sizing: border-box;
+  }
+  
+  .section-title {
+    margin: 0;
+    font-size: 22px;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+  }
+  
+  .card img {
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 16px;
+  }
+  
+  .euro {
+    font-weight: 700;
+  }
+  
+  .neutralStar {
+    color: var(--main-bg-color);
+  }
+  
+  h1 {
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+
+  h3{
+    font-size: 18px;
+  }
+
+  /****HEADER****/
+  /****NAV****/
+  nav{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+  }
+  nav img{
+    width: 200px;
+    height: 34.2px;
+  }
+
+  /****LOCATION****/
+  .location{
+    background-color: #EAEAEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+  }
+
+  .location img{
+    width: 12px;
+    height: 16px;
+  }
+
+  .location p{
+    font-weight: bold;
+  }
+
+  /****RESERVATION****/
+
+  .reservation{
+    display: flex;
+    justify-content: center;
+    background-color: #f6f6f6;
+  }
+
+  .reserv-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 18px;
+  }
+
+  .reservation button{
+    width: 218px;
+    height: 50px;
+    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border: 0;
+  }
+
+  /****FONCTION****/
+  .fonction{
+    background-color: #FFFFFF;
+    padding: 50px;
+  }
+
+  .fonction-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .fonction .fonction-etape{
+    display: flex;
+    gap: 36.5px;
+    margin-top: 25px;
+  }
+
+  #cercle{
+    width: 24px;
+    height: 24px;
+    background-color: #9356DC;
+    border-radius: 20px;
+  }
+
+  .fonction span{
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+  }
+
+  .fonction .fonction-box{
+    width: 100%;
+    height: 72.38px;
+    display: flex;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    background-color: #f6f6f6;
+    align-items: center;
+    gap: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .mobile{
+    height: 20px;
+    width: 13.04px;
+  }
+
+  .liste{
+    height: 16px;
+    width: 16.02px;
+  }
+
+  .restau{
+    height: 18px;
+    width: 18.03px;    
+  }
+
+  .fonction p{
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  /****RESTAURANTS****/
+  .restaurants{
+    background-color: #f6f6f6;
+    box-sizing: border-box;
+    display: grid;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .restaurants-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-top: 30px;
+  }
+
+  .essai{
+    gap: 22px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .restaurants-cards .card {
+    width: 490px;
+    height: 251px;
+    padding: inherit;
+  }
+  
+  .restaurants-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .restaurants-cards .card-img {
+    width: 100%;
+    height: 174px;
+    border-radius: 20px 20px 0px 0px;
+  }
+  
+  .card-img img{
+    width: 100%;
+    height: 174px;
+    border-radius: 20px 20px 0px 0px;   
+  }
+
+  .restaurants-cards .card-content {
+    width: 100%;
+    padding-left: 18.74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-top: 16px;
+  }
+  
+  .restaurants-cards .card-title {
+    font-size: 18px;
+    margin-top: auto;
+    margin-bottom: 5px;
+  }
+  
+  .restaurants-cards .card-subtitle {
+    font-size: 17px;
+    margin-top: auto;
+    margin-bottom: 12px;
+  }
+
+  .hearth{
+    width: 22px;
+    height: 21px;
+    position: absolute;
+    right: 25px;
+    top: 198px;
+  }
+
+  .restaurants button{
+    border: 0;
+    position: absolute;
+    right: 22px;
+    bottom: 25px;
+    background-color: transparent;
+    background-clip: text;
+    color: red;
+  }
+
+  .restaurants button:hover{
+    color: red;
+    background-color: red;
+    background-clip: text;
+  }
+
+  i{
+    position: absolute;
+  }
+
+  /****FOOTER****/
+  .footer-box{
+    background: #353535;
+    padding-bottom: 15px;
+    padding-top: 50px;
+  }
+
+  .footer-box .footer-txt{
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+  }
+
+  .footer-box .card-subtitle{
+    display: flex;
+    gap: 11px;
+    align-items: baseline;
+    font-weight: bold;
+  }
+
+  .footer-box .text-p{
+    display: flex;
+    align-items: baseline;
+    gap: 15px;
+  }
+
+  .footer-box .footer-logo{
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+  }
+
+  .cutlery{
+    height: 13px;
+    width: 11px;
+  }
+
+  .hands{
+    height: 13px;
+    width: 11.92px;
+  }
+
+  .footer-box p{
+    color: white;
+  }
+
+  .footer-box span{
+    font-family: "Shrikhand", sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+  }
+
+
+
+
+
+
+
+
+
+  /* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+  /* ... */
+  /****HEADER****/
+  /****FONCTION****/
+  .fonction{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fonction-etape{
+    display: flex;
+    flex-direction: column;
+  }
+
+  /****RESTAURANT****/
+
+  .restaurants{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .essai{
+
+  }
+
+  .restaurants-cards{
+    display: flex;
+    flex-direction: column;
+  }
+
+  /****FOOTER****/
+
+  .footer-box{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-txt{
+    flex-direction: column;
+  }
+
+  .footer-box .card-subtitle{
+    flex-direction: column;
+  }
+
+  .text-p{
+    flex-direction: column;
+  }
+
+  .footer-logo{
+
+  }
+}
